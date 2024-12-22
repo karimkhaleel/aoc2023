@@ -5,7 +5,12 @@ requires-python = ">=3.10"
 dependencies = ["pillow>=11.0.0"]
 
 [dependency-groups]
-dev = ["mypy>=1.13.0", "pytest>=8.3.4"]
+dev = [
+    "memray>=1.15.0",
+    "mypy>=1.13.0",
+    "pyroscope-io>=0.8.8",
+    "pytest>=8.3.4",
+]
 
 [tool.ruff]
 line-length = 120
