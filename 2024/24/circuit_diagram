@@ -1,0 +1,1205 @@
+// Circuit Diagram
+digraph {
+	rankdir=LR
+	node [shape=box]
+	y06 [label=y06 color=blue]
+	x06 [label=x06 color=blue]
+	pqj [label=pqj]
+	y06_AND_x06 [label=AND shape=ellipse]
+	y06 -> y06_AND_x06
+	x06 -> y06_AND_x06
+	y06_AND_x06 -> pqj
+	bbb [label=bbb]
+	qgg [label=qgg]
+	z42 [label=z42 color=red]
+	bbb_XOR_qgg [label=XOR shape=ellipse]
+	bbb -> bbb_XOR_qgg
+	qgg -> bbb_XOR_qgg
+	bbb_XOR_qgg -> z42
+	x10 [label=x10 color=blue]
+	y10 [label=y10 color=blue]
+	gdd [label=gdd]
+	x10_AND_y10 [label=AND shape=ellipse]
+	x10 -> x10_AND_y10
+	y10 -> x10_AND_y10
+	x10_AND_y10 -> gdd
+	cfj [label=cfj]
+	ftr [label=ftr]
+	htg [label=htg]
+	cfj_OR_ftr [label=OR shape=ellipse]
+	cfj -> cfj_OR_ftr
+	ftr -> cfj_OR_ftr
+	cfj_OR_ftr -> htg
+	x36 [label=x36 color=blue]
+	y36 [label=y36 color=blue]
+	kfb [label=kfb]
+	x36_XOR_y36 [label=XOR shape=ellipse]
+	x36 -> x36_XOR_y36
+	y36 -> x36_XOR_y36
+	x36_XOR_y36 -> kfb
+	gbf [label=gbf]
+	gnt [label=gnt]
+	hhp [label=hhp]
+	gbf_OR_gnt [label=OR shape=ellipse]
+	gbf -> gbf_OR_gnt
+	gnt -> gbf_OR_gnt
+	gbf_OR_gnt -> hhp
+	fnj [label=fnj]
+	bcg [label=bcg]
+	bdb [label=bdb]
+	fnj_OR_bcg [label=OR shape=ellipse]
+	fnj -> fnj_OR_bcg
+	bcg -> fnj_OR_bcg
+	fnj_OR_bcg -> bdb
+	tbk [label=tbk]
+	vmk [label=vmk]
+	z03 [label=z03 color=red]
+	tbk_XOR_vmk [label=XOR shape=ellipse]
+	tbk -> tbk_XOR_vmk
+	vmk -> tbk_XOR_vmk
+	tbk_XOR_vmk -> z03
+	kqw [label=kqw]
+	kqj [label=kqj]
+	mps [label=mps]
+	kqw_XOR_kqj [label=XOR shape=ellipse]
+	kqw -> kqw_XOR_kqj
+	kqj -> kqw_XOR_kqj
+	kqw_XOR_kqj -> mps
+	x31 [label=x31 color=blue]
+	y31 [label=y31 color=blue]
+	nqn [label=nqn]
+	x31_AND_y31 [label=AND shape=ellipse]
+	x31 -> x31_AND_y31
+	y31 -> x31_AND_y31
+	x31_AND_y31 -> nqn
+	pvw [label=pvw]
+	bmt [label=bmt]
+	srk [label=srk]
+	pvw_OR_bmt [label=OR shape=ellipse]
+	pvw -> pvw_OR_bmt
+	bmt -> pvw_OR_bmt
+	pvw_OR_bmt -> srk
+	rbs [label=rbs]
+	rtc [label=rtc]
+	tcc [label=tcc]
+	rbs_AND_rtc [label=AND shape=ellipse]
+	rbs -> rbs_AND_rtc
+	rtc -> rbs_AND_rtc
+	rbs_AND_rtc -> tcc
+	fwf [label=fwf]
+	ptm [label=ptm]
+	mpd [label=mpd]
+	fwf_AND_ptm [label=AND shape=ellipse]
+	fwf -> fwf_AND_ptm
+	ptm -> fwf_AND_ptm
+	fwf_AND_ptm -> mpd
+	x18 [label=x18 color=blue]
+	y18 [label=y18 color=blue]
+	x18_AND_y18 [label=AND shape=ellipse]
+	x18 -> x18_AND_y18
+	y18 -> x18_AND_y18
+	x18_AND_y18 -> pvw
+	bhb [label=bhb]
+	z28 [label=z28 color=red]
+	bhb_XOR_mps [label=XOR shape=ellipse]
+	bhb -> bhb_XOR_mps
+	mps -> bhb_XOR_mps
+	bhb_XOR_mps -> z28
+	x37 [label=x37 color=blue]
+	y37 [label=y37 color=blue]
+	x37_XOR_y37 [label=XOR shape=ellipse]
+	x37 -> x37_XOR_y37
+	y37 -> x37_XOR_y37
+	x37_XOR_y37 -> rtc
+	cgk [label=cgk]
+	ngh [label=ngh]
+	cgk_AND_kfb [label=AND shape=ellipse]
+	cgk -> cgk_AND_kfb
+	kfb -> cgk_AND_kfb
+	cgk_AND_kfb -> ngh
+	fcn [label=fcn]
+	kvk [label=kvk]
+	z34 [label=z34 color=red]
+	fcn_XOR_kvk [label=XOR shape=ellipse]
+	fcn -> fcn_XOR_kvk
+	kvk -> fcn_XOR_kvk
+	fcn_XOR_kvk -> z34
+	snv [label=snv]
+	jgq [label=jgq]
+	z27 [label=z27 color=red]
+	snv_OR_jgq [label=OR shape=ellipse]
+	snv -> snv_OR_jgq
+	jgq -> snv_OR_jgq
+	snv_OR_jgq -> z27
+	hvv [label=hvv]
+	y31_XOR_x31 [label=XOR shape=ellipse]
+	y31 -> y31_XOR_x31
+	x31 -> y31_XOR_x31
+	y31_XOR_x31 -> hvv
+	y11 [label=y11 color=blue]
+	x11 [label=x11 color=blue]
+	y11_XOR_x11 [label=XOR shape=ellipse]
+	y11 -> y11_XOR_x11
+	x11 -> y11_XOR_x11
+	y11_XOR_x11 -> fwf
+	mjm [label=mjm]
+	mjm_OR_gdd [label=OR shape=ellipse]
+	mjm -> mjm_OR_gdd
+	gdd -> mjm_OR_gdd
+	mjm_OR_gdd -> ptm
+	y43 [label=y43 color=blue]
+	x43 [label=x43 color=blue]
+	chc [label=chc]
+	y43_XOR_x43 [label=XOR shape=ellipse]
+	y43 -> y43_XOR_x43
+	x43 -> y43_XOR_x43
+	y43_XOR_x43 -> chc
+	x07 [label=x07 color=blue]
+	y07 [label=y07 color=blue]
+	bjv [label=bjv]
+	x07_XOR_y07 [label=XOR shape=ellipse]
+	x07 -> x07_XOR_y07
+	y07 -> x07_XOR_y07
+	x07_XOR_y07 -> bjv
+	ncs [label=ncs]
+	frj [label=frj]
+	vvc [label=vvc]
+	ncs_OR_frj [label=OR shape=ellipse]
+	ncs -> ncs_OR_frj
+	frj -> ncs_OR_frj
+	ncs_OR_frj -> vvc
+	gpm [label=gpm]
+	trn [label=trn]
+	msq [label=msq]
+	gpm_XOR_trn [label=XOR shape=ellipse]
+	gpm -> gpm_XOR_trn
+	trn -> gpm_XOR_trn
+	gpm_XOR_trn -> msq
+	x29 [label=x29 color=blue]
+	y29 [label=y29 color=blue]
+	tsr [label=tsr]
+	x29_XOR_y29 [label=XOR shape=ellipse]
+	x29 -> x29_XOR_y29
+	y29 -> x29_XOR_y29
+	x29_XOR_y29 -> tsr
+	fww [label=fww]
+	khq [label=khq]
+	vmj [label=vmj]
+	fww_AND_khq [label=AND shape=ellipse]
+	fww -> fww_AND_khq
+	khq -> fww_AND_khq
+	fww_AND_khq -> vmj
+	wqk [label=wqk]
+	z19 [label=z19 color=red]
+	wqk_XOR_srk [label=XOR shape=ellipse]
+	wqk -> wqk_XOR_srk
+	srk -> wqk_XOR_srk
+	wqk_XOR_srk -> z19
+	kkb [label=kkb]
+	rwd [label=rwd]
+	kkb_AND_rwd [label=AND shape=ellipse]
+	kkb -> kkb_AND_rwd
+	rwd -> kkb_AND_rwd
+	kkb_AND_rwd -> fnj
+	pjh [label=pjh]
+	gww [label=gww]
+	wwp [label=wwp]
+	pjh_OR_gww [label=OR shape=ellipse]
+	pjh -> pjh_OR_gww
+	gww -> pjh_OR_gww
+	pjh_OR_gww -> wwp
+	mgb [label=mgb]
+	cqt [label=cqt]
+	mgb_OR_msq [label=OR shape=ellipse]
+	mgb -> mgb_OR_msq
+	msq -> mgb_OR_msq
+	mgb_OR_msq -> cqt
+	y14 [label=y14 color=blue]
+	x14 [label=x14 color=blue]
+	z14 [label=z14 color=red]
+	y14_AND_x14 [label=AND shape=ellipse]
+	y14 -> y14_AND_x14
+	x14 -> y14_AND_x14
+	y14_AND_x14 -> z14
+	fhw [label=fhw]
+	wfp [label=wfp]
+	tsr_AND_fhw [label=AND shape=ellipse]
+	tsr -> tsr_AND_fhw
+	fhw -> tsr_AND_fhw
+	tsr_AND_fhw -> wfp
+	y24 [label=y24 color=blue]
+	x24 [label=x24 color=blue]
+	y24_XOR_x24 [label=XOR shape=ellipse]
+	y24 -> y24_XOR_x24
+	x24 -> y24_XOR_x24
+	y24_XOR_x24 -> kkb
+	pqr [label=pqr]
+	dsj [label=dsj]
+	pqr_OR_dsj [label=OR shape=ellipse]
+	pqr -> pqr_OR_dsj
+	dsj -> pqr_OR_dsj
+	pqr_OR_dsj -> gpm
+	dng [label=dng]
+	wrc [label=wrc]
+	dng_OR_wrc [label=OR shape=ellipse]
+	dng -> dng_OR_wrc
+	wrc -> dng_OR_wrc
+	dng_OR_wrc -> vmk
+	y41 [label=y41 color=blue]
+	x41 [label=x41 color=blue]
+	nhn [label=nhn]
+	y41_XOR_x41 [label=XOR shape=ellipse]
+	y41 -> y41_XOR_x41
+	x41 -> y41_XOR_x41
+	y41_XOR_x41 -> nhn
+	y42 [label=y42 color=blue]
+	x42 [label=x42 color=blue]
+	y42_XOR_x42 [label=XOR shape=ellipse]
+	y42 -> y42_XOR_x42
+	x42 -> y42_XOR_x42
+	y42_XOR_x42 -> qgg
+	z11 [label=z11 color=red]
+	fwf_XOR_ptm [label=XOR shape=ellipse]
+	fwf -> fwf_XOR_ptm
+	ptm -> fwf_XOR_ptm
+	fwf_XOR_ptm -> z11
+	gfn [label=gfn]
+	jmh [label=jmh]
+	ndq [label=ndq]
+	gfn_OR_jmh [label=OR shape=ellipse]
+	gfn -> gfn_OR_jmh
+	jmh -> gfn_OR_jmh
+	gfn_OR_jmh -> ndq
+	z36 [label=z36 color=red]
+	cgk_XOR_kfb [label=XOR shape=ellipse]
+	cgk -> cgk_XOR_kfb
+	kfb -> cgk_XOR_kfb
+	cgk_XOR_kfb -> z36
+	y15 [label=y15 color=blue]
+	x15 [label=x15 color=blue]
+	jnw [label=jnw]
+	y15_XOR_x15 [label=XOR shape=ellipse]
+	y15 -> y15_XOR_x15
+	x15 -> y15_XOR_x15
+	y15_XOR_x15 -> jnw
+	y01 [label=y01 color=blue]
+	x01 [label=x01 color=blue]
+	y01_AND_x01 [label=AND shape=ellipse]
+	y01 -> y01_AND_x01
+	x01 -> y01_AND_x01
+	y01_AND_x01 -> pjh
+	twr [label=twr]
+	vck [label=vck]
+	nnr [label=nnr]
+	twr_AND_vck [label=AND shape=ellipse]
+	twr -> twr_AND_vck
+	vck -> twr_AND_vck
+	twr_AND_vck -> nnr
+	ndn [label=ndn]
+	njd [label=njd]
+	z44 [label=z44 color=red]
+	ndn_XOR_njd [label=XOR shape=ellipse]
+	ndn -> ndn_XOR_njd
+	njd -> ndn_XOR_njd
+	ndn_XOR_njd -> z44
+	nnw [label=nnw]
+	mpb [label=mpb]
+	nnw_AND_htg [label=AND shape=ellipse]
+	nnw -> nnw_AND_htg
+	htg -> nnw_AND_htg
+	nnw_AND_htg -> mpb
+	rkm [label=rkm]
+	fgv [label=fgv]
+	rkm_AND_ndq [label=AND shape=ellipse]
+	rkm -> rkm_AND_ndq
+	ndq -> rkm_AND_ndq
+	rkm_AND_ndq -> fgv
+	pfd [label=pfd]
+	x11_AND_y11 [label=AND shape=ellipse]
+	x11 -> x11_AND_y11
+	y11 -> x11_AND_y11
+	x11_AND_y11 -> pfd
+	hkm [label=hkm]
+	z06 [label=z06 color=red]
+	vvc_XOR_hkm [label=XOR shape=ellipse]
+	vvc -> vvc_XOR_hkm
+	hkm -> vvc_XOR_hkm
+	vvc_XOR_hkm -> z06
+	kqw_AND_kqj [label=AND shape=ellipse]
+	kqw -> kqw_AND_kqj
+	kqj -> kqw_AND_kqj
+	kqw_AND_kqj -> snv
+	y04 [label=y04 color=blue]
+	x04 [label=x04 color=blue]
+	tjk [label=tjk]
+	y04_XOR_x04 [label=XOR shape=ellipse]
+	y04 -> y04_XOR_x04
+	x04 -> y04_XOR_x04
+	y04_XOR_x04 -> tjk
+	kjv [label=kjv]
+	kjv_OR_ngh [label=OR shape=ellipse]
+	kjv -> kjv_OR_ngh
+	ngh -> kjv_OR_ngh
+	kjv_OR_ngh -> rbs
+	cpn [label=cpn]
+	tvf [label=tvf]
+	tjk_AND_cpn [label=AND shape=ellipse]
+	tjk -> tjk_AND_cpn
+	cpn -> tjk_AND_cpn
+	tjk_AND_cpn -> tvf
+	y33 [label=y33 color=blue]
+	x33 [label=x33 color=blue]
+	y33_XOR_x33 [label=XOR shape=ellipse]
+	y33 -> y33_XOR_x33
+	x33 -> y33_XOR_x33
+	y33_XOR_x33 -> twr
+	fgs [label=fgs]
+	dgt [label=dgt]
+	fgs_OR_wfp [label=OR shape=ellipse]
+	fgs -> fgs_OR_wfp
+	wfp -> fgs_OR_wfp
+	fgs_OR_wfp -> dgt
+	x13 [label=x13 color=blue]
+	y13 [label=y13 color=blue]
+	dmq [label=dmq]
+	x13_XOR_y13 [label=XOR shape=ellipse]
+	x13 -> x13_XOR_y13
+	y13 -> x13_XOR_y13
+	x13_XOR_y13 -> dmq
+	ttm [label=ttm]
+	x33_AND_y33 [label=AND shape=ellipse]
+	x33 -> x33_AND_y33
+	y33 -> x33_AND_y33
+	x33_AND_y33 -> ttm
+	y35 [label=y35 color=blue]
+	x35 [label=x35 color=blue]
+	qvt [label=qvt]
+	y35_AND_x35 [label=AND shape=ellipse]
+	y35 -> y35_AND_x35
+	x35 -> y35_AND_x35
+	y35_AND_x35 -> qvt
+	kdp [label=kdp]
+	jhf [label=jhf]
+	chc_AND_kdp [label=AND shape=ellipse]
+	chc -> chc_AND_kdp
+	kdp -> chc_AND_kdp
+	chc_AND_kdp -> jhf
+	y26 [label=y26 color=blue]
+	x26 [label=x26 color=blue]
+	y26_XOR_x26 [label=XOR shape=ellipse]
+	y26 -> y26_XOR_x26
+	x26 -> y26_XOR_x26
+	y26_XOR_x26 -> nnw
+	y40 [label=y40 color=blue]
+	x40 [label=x40 color=blue]
+	kvb [label=kvb]
+	y40_XOR_x40 [label=XOR shape=ellipse]
+	y40 -> y40_XOR_x40
+	x40 -> y40_XOR_x40
+	y40_XOR_x40 -> kvb
+	rvm [label=rvm]
+	x15_AND_y15 [label=AND shape=ellipse]
+	x15 -> x15_AND_y15
+	y15 -> x15_AND_y15
+	x15_AND_y15 -> rvm
+	tnb [label=tnb]
+	qgp [label=qgp]
+	bnt [label=bnt]
+	tnb_AND_qgp [label=AND shape=ellipse]
+	tnb -> tnb_AND_qgp
+	qgp -> tnb_AND_qgp
+	tnb_AND_qgp -> bnt
+	jdk [label=jdk]
+	fcn_AND_kvk [label=AND shape=ellipse]
+	fcn -> fcn_AND_kvk
+	kvk -> fcn_AND_kvk
+	fcn_AND_kvk -> jdk
+	dsk [label=dsk]
+	dsk_OR_qvt [label=OR shape=ellipse]
+	dsk -> dsk_OR_qvt
+	qvt -> dsk_OR_qvt
+	dsk_OR_qvt -> cgk
+	x21 [label=x21 color=blue]
+	y21 [label=y21 color=blue]
+	hdg [label=hdg]
+	x21_XOR_y21 [label=XOR shape=ellipse]
+	x21 -> x21_XOR_y21
+	y21 -> x21_XOR_y21
+	x21_XOR_y21 -> hdg
+	wkr [label=wkr]
+	dcs [label=dcs]
+	nhn_AND_wkr [label=AND shape=ellipse]
+	nhn -> nhn_AND_wkr
+	wkr -> nhn_AND_wkr
+	nhn_AND_wkr -> dcs
+	x22 [label=x22 color=blue]
+	y22 [label=y22 color=blue]
+	bqc [label=bqc]
+	x22_AND_y22 [label=AND shape=ellipse]
+	x22 -> x22_AND_y22
+	y22 -> x22_AND_y22
+	x22_AND_y22 -> bqc
+	mvg [label=mvg]
+	cqt_AND_kvb [label=AND shape=ellipse]
+	cqt -> cqt_AND_kvb
+	kvb -> cqt_AND_kvb
+	cqt_AND_kvb -> mvg
+	x25 [label=x25 color=blue]
+	y25 [label=y25 color=blue]
+	gdv [label=gdv]
+	x25_XOR_y25 [label=XOR shape=ellipse]
+	x25 -> x25_XOR_y25
+	y25 -> x25_XOR_y25
+	x25_XOR_y25 -> gdv
+	z04 [label=z04 color=red]
+	cpn_XOR_tjk [label=XOR shape=ellipse]
+	cpn -> cpn_XOR_tjk
+	tjk -> cpn_XOR_tjk
+	cpn_XOR_tjk -> z04
+	rrc [label=rrc]
+	dhq [label=dhq]
+	rvm_OR_rrc [label=OR shape=ellipse]
+	rvm -> rvm_OR_rrc
+	rrc -> rvm_OR_rrc
+	rvm_OR_rrc -> dhq
+	z40 [label=z40 color=red]
+	kvb_XOR_cqt [label=XOR shape=ellipse]
+	kvb -> kvb_XOR_cqt
+	cqt -> kvb_XOR_cqt
+	kvb_XOR_cqt -> z40
+	y29_AND_x29 [label=AND shape=ellipse]
+	y29 -> y29_AND_x29
+	x29 -> y29_AND_x29
+	y29_AND_x29 -> fgs
+	gdv_AND_bdb [label=AND shape=ellipse]
+	gdv -> gdv_AND_bdb
+	bdb -> gdv_AND_bdb
+	gdv_AND_bdb -> cfj
+	x00 [label=x00 color=blue]
+	y00 [label=y00 color=blue]
+	fgw [label=fgw]
+	x00_AND_y00 [label=AND shape=ellipse]
+	x00 -> x00_AND_y00
+	y00 -> x00_AND_y00
+	x00_AND_y00 -> fgw
+	z26 [label=z26 color=red]
+	nnw_XOR_htg [label=XOR shape=ellipse]
+	nnw -> nnw_XOR_htg
+	htg -> nnw_XOR_htg
+	nnw_XOR_htg -> z26
+	qmn [label=qmn]
+	x04_AND_y04 [label=AND shape=ellipse]
+	x04 -> x04_AND_y04
+	y04 -> x04_AND_y04
+	x04_AND_y04 -> qmn
+	x38 [label=x38 color=blue]
+	y38 [label=y38 color=blue]
+	x38_AND_y38 [label=AND shape=ellipse]
+	x38 -> x38_AND_y38
+	y38 -> x38_AND_y38
+	x38_AND_y38 -> pqr
+	grj [label=grj]
+	x40_AND_y40 [label=AND shape=ellipse]
+	x40 -> x40_AND_y40
+	y40 -> x40_AND_y40
+	x40_AND_y40 -> grj
+	vhm [label=vhm]
+	bbw [label=bbw]
+	vhm_OR_fgv [label=OR shape=ellipse]
+	vhm -> vhm_OR_fgv
+	fgv -> vhm_OR_fgv
+	vhm_OR_fgv -> bbw
+	jbm [label=jbm]
+	kfk [label=kfk]
+	jbm_AND_kfk [label=AND shape=ellipse]
+	jbm -> jbm_AND_kfk
+	kfk -> jbm_AND_kfk
+	jbm_AND_kfk -> bmt
+	y25_AND_x25 [label=AND shape=ellipse]
+	y25 -> y25_AND_x25
+	x25 -> y25_AND_x25
+	y25_AND_x25 -> ftr
+	cnq [label=cnq]
+	dht [label=dht]
+	cnq_AND_dht [label=AND shape=ellipse]
+	cnq -> cnq_AND_dht
+	dht -> cnq_AND_dht
+	cnq_AND_dht -> mjm
+	y05 [label=y05 color=blue]
+	x05 [label=x05 color=blue]
+	y05_AND_x05 [label=AND shape=ellipse]
+	y05 -> y05_AND_x05
+	x05 -> y05_AND_x05
+	y05_AND_x05 -> frj
+	x32 [label=x32 color=blue]
+	y32 [label=y32 color=blue]
+	x32_XOR_y32 [label=XOR shape=ellipse]
+	x32 -> x32_XOR_y32
+	y32 -> x32_XOR_y32
+	x32_XOR_y32 -> qgp
+	wns [label=wns]
+	kcq [label=kcq]
+	wns_OR_kcq [label=OR shape=ellipse]
+	wns -> wns_OR_kcq
+	kcq -> wns_OR_kcq
+	wns_OR_kcq -> fhw
+	y18_XOR_x18 [label=XOR shape=ellipse]
+	y18 -> y18_XOR_x18
+	x18 -> y18_XOR_x18
+	y18_XOR_x18 -> kfk
+	tfr [label=tfr]
+	trt [label=trt]
+	z05 [label=z05 color=red]
+	tfr_XOR_trt [label=XOR shape=ellipse]
+	tfr -> tfr_XOR_trt
+	trt -> tfr_XOR_trt
+	tfr_XOR_trt -> z05
+	z18 [label=z18 color=red]
+	jbm_XOR_kfk [label=XOR shape=ellipse]
+	jbm -> jbm_XOR_kfk
+	kfk -> jbm_XOR_kfk
+	jbm_XOR_kfk -> z18
+	x03 [label=x03 color=blue]
+	y03 [label=y03 color=blue]
+	x03_XOR_y03 [label=XOR shape=ellipse]
+	x03 -> x03_XOR_y03
+	y03 -> x03_XOR_y03
+	x03_XOR_y03 -> tbk
+	vtp [label=vtp]
+	sfj [label=sfj]
+	tcc_OR_vtp [label=OR shape=ellipse]
+	tcc -> tcc_OR_vtp
+	vtp -> tcc_OR_vtp
+	tcc_OR_vtp -> sfj
+	nnr_OR_ttm [label=OR shape=ellipse]
+	nnr -> nnr_OR_ttm
+	ttm -> nnr_OR_ttm
+	nnr_OR_ttm -> kvk
+	y23 [label=y23 color=blue]
+	x23 [label=x23 color=blue]
+	vnq [label=vnq]
+	y23_AND_x23 [label=AND shape=ellipse]
+	y23 -> y23_AND_x23
+	x23 -> y23_AND_x23
+	y23_AND_x23 -> vnq
+	y28 [label=y28 color=blue]
+	x28 [label=x28 color=blue]
+	y28_AND_x28 [label=AND shape=ellipse]
+	y28 -> y28_AND_x28
+	x28 -> y28_AND_x28
+	y28_AND_x28 -> wns
+	tdh [label=tdh]
+	tkq [label=tkq]
+	pvt [label=pvt]
+	tdh_OR_tkq [label=OR shape=ellipse]
+	tdh -> tdh_OR_tkq
+	tkq -> tdh_OR_tkq
+	tdh_OR_tkq -> pvt
+	gfj [label=gfj]
+	mpd_OR_pfd [label=OR shape=ellipse]
+	mpd -> mpd_OR_pfd
+	pfd -> mpd_OR_pfd
+	mpd_OR_pfd -> gfj
+	srk_AND_wqk [label=AND shape=ellipse]
+	srk -> srk_AND_wqk
+	wqk -> srk_AND_wqk
+	srk_AND_wqk -> tkq
+	y27 [label=y27 color=blue]
+	x27 [label=x27 color=blue]
+	y27_AND_x27 [label=AND shape=ellipse]
+	y27 -> y27_AND_x27
+	x27 -> y27_AND_x27
+	y27_AND_x27 -> jgq
+	dpc [label=dpc]
+	ttj [label=ttj]
+	dpc_AND_ttj [label=AND shape=ellipse]
+	dpc -> dpc_AND_ttj
+	ttj -> dpc_AND_ttj
+	dpc_AND_ttj -> dsk
+	y17 [label=y17 color=blue]
+	x17 [label=x17 color=blue]
+	tmc [label=tmc]
+	y17_XOR_x17 [label=XOR shape=ellipse]
+	y17 -> y17_XOR_x17
+	x17 -> y17_XOR_x17
+	y17_XOR_x17 -> tmc
+	vdn [label=vdn]
+	vdn_OR_nqn [label=OR shape=ellipse]
+	vdn -> vdn_OR_nqn
+	nqn -> vdn_OR_nqn
+	vdn_OR_nqn -> tnb
+	jsd [label=jsd]
+	qwf [label=qwf]
+	jsd_OR_qwf [label=OR shape=ellipse]
+	jsd -> jsd_OR_qwf
+	qwf -> jsd_OR_qwf
+	jsd_OR_qwf -> cnq
+	tvc [label=tvc]
+	jhf_OR_tvc [label=OR shape=ellipse]
+	jhf -> jhf_OR_tvc
+	tvc -> jhf_OR_tvc
+	jhf_OR_tvc -> ndn
+	x09 [label=x09 color=blue]
+	y09 [label=y09 color=blue]
+	x09_XOR_y09 [label=XOR shape=ellipse]
+	x09 -> x09_XOR_y09
+	y09 -> x09_XOR_y09
+	x09_XOR_y09 -> qwf
+	y39 [label=y39 color=blue]
+	x39 [label=x39 color=blue]
+	y39_XOR_x39 [label=XOR shape=ellipse]
+	y39 -> y39_XOR_x39
+	x39 -> y39_XOR_x39
+	y39_XOR_x39 -> trn
+	y12 [label=y12 color=blue]
+	x12 [label=x12 color=blue]
+	fsv [label=fsv]
+	y12_AND_x12 [label=AND shape=ellipse]
+	y12 -> y12_AND_x12
+	x12 -> y12_AND_x12
+	y12_AND_x12 -> fsv
+	bpv [label=bpv]
+	jdr [label=jdr]
+	bpv_OR_fsv [label=OR shape=ellipse]
+	bpv -> bpv_OR_fsv
+	fsv -> bpv_OR_fsv
+	bpv_OR_fsv -> jdr
+	z35 [label=z35 color=red]
+	ttj_XOR_dpc [label=XOR shape=ellipse]
+	ttj -> ttj_XOR_dpc
+	dpc -> ttj_XOR_dpc
+	ttj_XOR_dpc -> z35
+	x30 [label=x30 color=blue]
+	y30 [label=y30 color=blue]
+	dnt [label=dnt]
+	x30_XOR_y30 [label=XOR shape=ellipse]
+	x30 -> x30_XOR_y30
+	y30 -> x30_XOR_y30
+	x30_XOR_y30 -> dnt
+	y24_AND_x24 [label=AND shape=ellipse]
+	y24 -> y24_AND_x24
+	x24 -> y24_AND_x24
+	y24_AND_x24 -> bcg
+	jrh [label=jrh]
+	krg [label=krg]
+	z08 [label=z08 color=red]
+	jrh_XOR_krg [label=XOR shape=ellipse]
+	jrh -> jrh_XOR_krg
+	krg -> jrh_XOR_krg
+	jrh_XOR_krg -> z08
+	z37 [label=z37 color=red]
+	rtc_XOR_rbs [label=XOR shape=ellipse]
+	rtc -> rtc_XOR_rbs
+	rbs -> rtc_XOR_rbs
+	rtc_XOR_rbs -> z37
+	tvf_OR_qmn [label=OR shape=ellipse]
+	tvf -> tvf_OR_qmn
+	qmn -> tvf_OR_qmn
+	tvf_OR_qmn -> tfr
+	x28_XOR_y28 [label=XOR shape=ellipse]
+	x28 -> x28_XOR_y28
+	y28 -> x28_XOR_y28
+	x28_XOR_y28 -> bhb
+	hds [label=hds]
+	hds_OR_jdk [label=OR shape=ellipse]
+	hds -> hds_OR_jdk
+	jdk -> hds_OR_jdk
+	hds_OR_jdk -> dpc
+	wmw [label=wmw]
+	wwp_AND_wmw [label=AND shape=ellipse]
+	wwp -> wwp_AND_wmw
+	wmw -> wwp_AND_wmw
+	wwp_AND_wmw -> dng
+	rqb [label=rqb]
+	z21 [label=z21 color=red]
+	rqb_XOR_hdg [label=XOR shape=ellipse]
+	rqb -> rqb_XOR_hdg
+	hdg -> rqb_XOR_hdg
+	rqb_XOR_hdg -> z21
+	z39 [label=z39 color=red]
+	trn_AND_gpm [label=AND shape=ellipse]
+	trn -> trn_AND_gpm
+	gpm -> trn_AND_gpm
+	trn_AND_gpm -> z39
+	jdr_AND_dmq [label=AND shape=ellipse]
+	jdr -> jdr_AND_dmq
+	dmq -> jdr_AND_dmq
+	jdr_AND_dmq -> gfn
+	wph [label=wph]
+	x38_XOR_y38 [label=XOR shape=ellipse]
+	x38 -> x38_XOR_y38
+	y38 -> x38_XOR_y38
+	x38_XOR_y38 -> wph
+	x16 [label=x16 color=blue]
+	y16 [label=y16 color=blue]
+	jbf [label=jbf]
+	x16_XOR_y16 [label=XOR shape=ellipse]
+	x16 -> x16_XOR_y16
+	y16 -> x16_XOR_y16
+	x16_XOR_y16 -> jbf
+	psd [label=psd]
+	njd_AND_ndn [label=AND shape=ellipse]
+	njd -> njd_AND_ndn
+	ndn -> njd_AND_ndn
+	njd_AND_ndn -> psd
+	brk [label=brk]
+	y07_AND_x07 [label=AND shape=ellipse]
+	y07 -> y07_AND_x07
+	x07 -> y07_AND_x07
+	y07_AND_x07 -> brk
+	bkw [label=bkw]
+	bqc_OR_bkw [label=OR shape=ellipse]
+	bqc -> bqc_OR_bkw
+	bkw -> bqc_OR_bkw
+	bqc_OR_bkw -> fww
+	x06_XOR_y06 [label=XOR shape=ellipse]
+	x06 -> x06_XOR_y06
+	y06 -> x06_XOR_y06
+	x06_XOR_y06 -> hkm
+	gcr [label=gcr]
+	z20 [label=z20 color=red]
+	gcr_XOR_pvt [label=XOR shape=ellipse]
+	gcr -> gcr_XOR_pvt
+	pvt -> gcr_XOR_pvt
+	gcr_XOR_pvt -> z20
+	cnk [label=cnk]
+	x09_AND_y09 [label=AND shape=ellipse]
+	x09 -> x09_AND_y09
+	y09 -> x09_AND_y09
+	x09_AND_y09 -> cnk
+	qdh [label=qdh]
+	y26_AND_x26 [label=AND shape=ellipse]
+	y26 -> y26_AND_x26
+	x26 -> y26_AND_x26
+	y26_AND_x26 -> qdh
+	x39_AND_y39 [label=AND shape=ellipse]
+	x39 -> x39_AND_y39
+	y39 -> x39_AND_y39
+	x39_AND_y39 -> mgb
+	fjj [label=fjj]
+	brk_OR_fjj [label=OR shape=ellipse]
+	brk -> brk_OR_fjj
+	fjj -> brk_OR_fjj
+	brk_OR_fjj -> krg
+	y08 [label=y08 color=blue]
+	x08 [label=x08 color=blue]
+	y08_XOR_x08 [label=XOR shape=ellipse]
+	y08 -> y08_XOR_x08
+	x08 -> y08_XOR_x08
+	y08_XOR_x08 -> jrh
+	qjg [label=qjg]
+	vph [label=vph]
+	qjg_OR_vph [label=OR shape=ellipse]
+	qjg -> qjg_OR_vph
+	vph -> qjg_OR_vph
+	qjg_OR_vph -> cpn
+	bgb [label=bgb]
+	x01_XOR_y01 [label=XOR shape=ellipse]
+	x01 -> x01_XOR_y01
+	y01 -> x01_XOR_y01
+	x01_XOR_y01 -> bgb
+	bhb_AND_mps [label=AND shape=ellipse]
+	bhb -> bhb_AND_mps
+	mps -> bhb_AND_mps
+	bhb_AND_mps -> kcq
+	whw [label=whw]
+	dgt_AND_dnt [label=AND shape=ellipse]
+	dgt -> dgt_AND_dnt
+	dnt -> dgt_AND_dnt
+	dgt_AND_dnt -> whw
+	z09 [label=z09 color=red]
+	cnk_XOR_hhp [label=XOR shape=ellipse]
+	cnk -> cnk_XOR_hhp
+	hhp -> cnk_XOR_hhp
+	cnk_XOR_hhp -> z09
+	gmr [label=gmr]
+	z12 [label=z12 color=red]
+	gfj_XOR_gmr [label=XOR shape=ellipse]
+	gfj -> gfj_XOR_gmr
+	gmr -> gfj_XOR_gmr
+	gfj_XOR_gmr -> z12
+	npc [label=npc]
+	dhq_AND_jbf [label=AND shape=ellipse]
+	dhq -> dhq_AND_jbf
+	jbf -> dhq_AND_jbf
+	dhq_AND_jbf -> npc
+	y23_XOR_x23 [label=XOR shape=ellipse]
+	y23 -> y23_XOR_x23
+	x23 -> y23_XOR_x23
+	y23_XOR_x23 -> khq
+	z25 [label=z25 color=red]
+	gdv_XOR_bdb [label=XOR shape=ellipse]
+	gdv -> gdv_XOR_bdb
+	bdb -> gdv_XOR_bdb
+	gdv_XOR_bdb -> z25
+	x14_XOR_y14 [label=XOR shape=ellipse]
+	x14 -> x14_XOR_y14
+	y14 -> x14_XOR_y14
+	x14_XOR_y14 -> rkm
+	sws [label=sws]
+	y22_XOR_x22 [label=XOR shape=ellipse]
+	y22 -> y22_XOR_x22
+	x22 -> y22_XOR_x22
+	y22_XOR_x22 -> sws
+	ctm [label=ctm]
+	z31 [label=z31 color=red]
+	hvv_XOR_ctm [label=XOR shape=ellipse]
+	hvv -> hvv_XOR_ctm
+	ctm -> hvv_XOR_ctm
+	hvv_XOR_ctm -> z31
+	pnv [label=pnv]
+	jcp [label=jcp]
+	pnv_OR_jcp [label=OR shape=ellipse]
+	pnv -> pnv_OR_jcp
+	jcp -> pnv_OR_jcp
+	pnv_OR_jcp -> rqb
+	y37_AND_x37 [label=AND shape=ellipse]
+	y37 -> y37_AND_x37
+	x37 -> y37_AND_x37
+	y37_AND_x37 -> vtp
+	z13 [label=z13 color=red]
+	dmq_XOR_jdr [label=XOR shape=ellipse]
+	dmq -> dmq_XOR_jdr
+	jdr -> dmq_XOR_jdr
+	dmq_XOR_jdr -> z13
+	y08_AND_x08 [label=AND shape=ellipse]
+	y08 -> y08_AND_x08
+	x08 -> y08_AND_x08
+	y08_AND_x08 -> gbf
+	gmp [label=gmp]
+	z07 [label=z07 color=red]
+	gmp_XOR_bjv [label=XOR shape=ellipse]
+	gmp -> gmp_XOR_bjv
+	bjv -> gmp_XOR_bjv
+	gmp_XOR_bjv -> z07
+	x10_XOR_y10 [label=XOR shape=ellipse]
+	x10 -> x10_XOR_y10
+	y10 -> x10_XOR_y10
+	x10_XOR_y10 -> dht
+	bjv_AND_gmp [label=AND shape=ellipse]
+	bjv -> bjv_AND_gmp
+	gmp -> bjv_AND_gmp
+	bjv_AND_gmp -> fjj
+	jmq [label=jmq]
+	z22 [label=z22 color=red]
+	sws_XOR_jmq [label=XOR shape=ellipse]
+	sws -> sws_XOR_jmq
+	jmq -> sws_XOR_jmq
+	sws_XOR_jmq -> z22
+	z38 [label=z38 color=red]
+	sfj_XOR_wph [label=XOR shape=ellipse]
+	sfj -> sfj_XOR_wph
+	wph -> sfj_XOR_wph
+	sfj_XOR_wph -> z38
+	x35_XOR_y35 [label=XOR shape=ellipse]
+	x35 -> x35_XOR_y35
+	y35 -> x35_XOR_y35
+	x35_XOR_y35 -> ttj
+	x44 [label=x44 color=blue]
+	y44 [label=y44 color=blue]
+	x44_XOR_y44 [label=XOR shape=ellipse]
+	x44 -> x44_XOR_y44
+	y44 -> x44_XOR_y44
+	x44_XOR_y44 -> njd
+	x02 [label=x02 color=blue]
+	y02 [label=y02 color=blue]
+	x02_XOR_y02 [label=XOR shape=ellipse]
+	x02 -> x02_XOR_y02
+	y02 -> x02_XOR_y02
+	x02_XOR_y02 -> wmw
+	z32 [label=z32 color=red]
+	qgp_XOR_tnb [label=XOR shape=ellipse]
+	qgp -> qgp_XOR_tnb
+	tnb -> qgp_XOR_tnb
+	qgp_XOR_tnb -> z32
+	z30 [label=z30 color=red]
+	dgt_XOR_dnt [label=XOR shape=ellipse]
+	dgt -> dgt_XOR_dnt
+	dnt -> dgt_XOR_dnt
+	dgt_XOR_dnt -> z30
+	x02_AND_y02 [label=AND shape=ellipse]
+	x02 -> x02_AND_y02
+	y02 -> x02_AND_y02
+	x02_AND_y02 -> wrc
+	gfr [label=gfr]
+	y32_AND_x32 [label=AND shape=ellipse]
+	y32 -> y32_AND_x32
+	x32 -> y32_AND_x32
+	y32_AND_x32 -> gfr
+	z29 [label=z29 color=red]
+	tsr_XOR_fhw [label=XOR shape=ellipse]
+	tsr -> tsr_XOR_fhw
+	fhw -> tsr_XOR_fhw
+	tsr_XOR_fhw -> z29
+	jrh_AND_krg [label=AND shape=ellipse]
+	jrh -> jrh_AND_krg
+	krg -> jrh_AND_krg
+	jrh_AND_krg -> gnt
+	vmj_OR_vnq [label=OR shape=ellipse]
+	vmj -> vmj_OR_vnq
+	vnq -> vmj_OR_vnq
+	vmj_OR_vnq -> rwd
+	wgp [label=wgp]
+	pqj_OR_wgp [label=OR shape=ellipse]
+	pqj -> pqj_OR_wgp
+	wgp -> pqj_OR_wgp
+	pqj_OR_wgp -> gmp
+	vss [label=vss]
+	z45 [label=z45 color=red]
+	vss_OR_psd [label=OR shape=ellipse]
+	vss -> vss_OR_psd
+	psd -> vss_OR_psd
+	vss_OR_psd -> z45
+	jmq_AND_sws [label=AND shape=ellipse]
+	jmq -> jmq_AND_sws
+	sws -> jmq_AND_sws
+	jmq_AND_sws -> bkw
+	z16 [label=z16 color=red]
+	jbf_XOR_dhq [label=XOR shape=ellipse]
+	jbf -> jbf_XOR_dhq
+	dhq -> jbf_XOR_dhq
+	jbf_XOR_dhq -> z16
+	spf [label=spf]
+	x30_AND_y30 [label=AND shape=ellipse]
+	x30 -> x30_AND_y30
+	y30 -> x30_AND_y30
+	x30_AND_y30 -> spf
+	hvv_AND_ctm [label=AND shape=ellipse]
+	hvv -> hvv_AND_ctm
+	ctm -> hvv_AND_ctm
+	hvv_AND_ctm -> vdn
+	mpb_OR_qdh [label=OR shape=ellipse]
+	mpb -> mpb_OR_qdh
+	qdh -> mpb_OR_qdh
+	mpb_OR_qdh -> kqj
+	nmh [label=nmh]
+	cpg [label=cpg]
+	tmc_AND_nmh [label=AND shape=ellipse]
+	tmc -> tmc_AND_nmh
+	nmh -> tmc_AND_nmh
+	tmc_AND_nmh -> cpg
+	z02 [label=z02 color=red]
+	wmw_XOR_wwp [label=XOR shape=ellipse]
+	wmw -> wmw_XOR_wwp
+	wwp -> wmw_XOR_wwp
+	wmw_XOR_wwp -> z02
+	z00 [label=z00 color=red]
+	y00_XOR_x00 [label=XOR shape=ellipse]
+	y00 -> y00_XOR_x00
+	x00 -> y00_XOR_x00
+	y00_XOR_x00 -> z00
+	y13_AND_x13 [label=AND shape=ellipse]
+	y13 -> y13_AND_x13
+	x13 -> y13_AND_x13
+	y13_AND_x13 -> jmh
+	x43_AND_y43 [label=AND shape=ellipse]
+	x43 -> x43_AND_y43
+	y43 -> x43_AND_y43
+	x43_AND_y43 -> tvc
+	z41 [label=z41 color=red]
+	wkr_XOR_nhn [label=XOR shape=ellipse]
+	wkr -> wkr_XOR_nhn
+	nhn -> wkr_XOR_nhn
+	wkr_XOR_nhn -> z41
+	gfr_OR_bnt [label=OR shape=ellipse]
+	gfr -> gfr_OR_bnt
+	bnt -> gfr_OR_bnt
+	gfr_OR_bnt -> vck
+	fcs [label=fcs]
+	y16_AND_x16 [label=AND shape=ellipse]
+	y16 -> y16_AND_x16
+	x16 -> y16_AND_x16
+	y16_AND_x16 -> fcs
+	tkv [label=tkv]
+	y41_AND_x41 [label=AND shape=ellipse]
+	y41 -> y41_AND_x41
+	x41 -> y41_AND_x41
+	y41_AND_x41 -> tkv
+	y36_AND_x36 [label=AND shape=ellipse]
+	y36 -> y36_AND_x36
+	x36 -> y36_AND_x36
+	y36_AND_x36 -> kjv
+	tfr_AND_trt [label=AND shape=ellipse]
+	tfr -> tfr_AND_trt
+	trt -> tfr_AND_trt
+	tfr_AND_trt -> ncs
+	sfj_AND_wph [label=AND shape=ellipse]
+	sfj -> sfj_AND_wph
+	wph -> sfj_AND_wph
+	sfj_AND_wph -> dsj
+	x19 [label=x19 color=blue]
+	y19 [label=y19 color=blue]
+	x19_AND_y19 [label=AND shape=ellipse]
+	x19 -> x19_AND_y19
+	y19 -> x19_AND_y19
+	x19_AND_y19 -> tdh
+	nbj [label=nbj]
+	cpg_OR_nbj [label=OR shape=ellipse]
+	cpg -> cpg_OR_nbj
+	nbj -> cpg_OR_nbj
+	cpg_OR_nbj -> jbm
+	jnw_AND_bbw [label=AND shape=ellipse]
+	jnw -> jnw_AND_bbw
+	bbw -> jnw_AND_bbw
+	jnw_AND_bbw -> rrc
+	bwg [label=bwg]
+	qgg_AND_bbb [label=AND shape=ellipse]
+	qgg -> qgg_AND_bbb
+	bbb -> qgg_AND_bbb
+	qgg_AND_bbb -> bwg
+	z15 [label=z15 color=red]
+	bbw_XOR_jnw [label=XOR shape=ellipse]
+	bbw -> bbw_XOR_jnw
+	jnw -> bbw_XOR_jnw
+	bbw_XOR_jnw -> z15
+	x05_XOR_y05 [label=XOR shape=ellipse]
+	x05 -> x05_XOR_y05
+	y05 -> x05_XOR_y05
+	x05_XOR_y05 -> trt
+	z10 [label=z10 color=red]
+	dht_XOR_cnq [label=XOR shape=ellipse]
+	dht -> dht_XOR_cnq
+	cnq -> dht_XOR_cnq
+	dht_XOR_cnq -> z10
+	dgc [label=dgc]
+	x21_AND_y21 [label=AND shape=ellipse]
+	x21 -> x21_AND_y21
+	y21 -> x21_AND_y21
+	x21_AND_y21 -> dgc
+	ggq [label=ggq]
+	bwg_OR_ggq [label=OR shape=ellipse]
+	bwg -> bwg_OR_ggq
+	ggq -> bwg_OR_ggq
+	bwg_OR_ggq -> kdp
+	x20 [label=x20 color=blue]
+	y20 [label=y20 color=blue]
+	x20_AND_y20 [label=AND shape=ellipse]
+	x20 -> x20_AND_y20
+	y20 -> x20_AND_y20
+	x20_AND_y20 -> jcp
+	x42_AND_y42 [label=AND shape=ellipse]
+	x42 -> x42_AND_y42
+	y42 -> x42_AND_y42
+	x42_AND_y42 -> ggq
+	pvt_AND_gcr [label=AND shape=ellipse]
+	pvt -> pvt_AND_gcr
+	gcr -> pvt_AND_gcr
+	pvt_AND_gcr -> pnv
+	z01 [label=z01 color=red]
+	fgw_XOR_bgb [label=XOR shape=ellipse]
+	fgw -> fgw_XOR_bgb
+	bgb -> fgw_XOR_bgb
+	fgw_XOR_bgb -> z01
+	x34 [label=x34 color=blue]
+	y34 [label=y34 color=blue]
+	x34_AND_y34 [label=AND shape=ellipse]
+	x34 -> x34_AND_y34
+	y34 -> x34_AND_y34
+	x34_AND_y34 -> hds
+	y03_AND_x03 [label=AND shape=ellipse]
+	y03 -> y03_AND_x03
+	x03 -> y03_AND_x03
+	y03_AND_x03 -> qjg
+	y44_AND_x44 [label=AND shape=ellipse]
+	y44 -> y44_AND_x44
+	x44 -> y44_AND_x44
+	y44_AND_x44 -> vss
+	rvh [label=rvh]
+	rqb_AND_hdg [label=AND shape=ellipse]
+	rqb -> rqb_AND_hdg
+	hdg -> rqb_AND_hdg
+	rqb_AND_hdg -> rvh
+	rvh_OR_dgc [label=OR shape=ellipse]
+	rvh -> rvh_OR_dgc
+	dgc -> rvh_OR_dgc
+	rvh_OR_dgc -> jmq
+	y19_XOR_x19 [label=XOR shape=ellipse]
+	y19 -> y19_XOR_x19
+	x19 -> y19_XOR_x19
+	y19_XOR_x19 -> wqk
+	cnk_AND_hhp [label=AND shape=ellipse]
+	cnk -> cnk_AND_hhp
+	hhp -> cnk_AND_hhp
+	cnk_AND_hhp -> jsd
+	ndq_XOR_rkm [label=XOR shape=ellipse]
+	ndq -> ndq_XOR_rkm
+	rkm -> ndq_XOR_rkm
+	ndq_XOR_rkm -> vhm
+	vmk_AND_tbk [label=AND shape=ellipse]
+	vmk -> vmk_AND_tbk
+	tbk -> vmk_AND_tbk
+	vmk_AND_tbk -> vph
+	z23 [label=z23 color=red]
+	khq_XOR_fww [label=XOR shape=ellipse]
+	khq -> khq_XOR_fww
+	fww -> khq_XOR_fww
+	khq_XOR_fww -> z23
+	x17_AND_y17 [label=AND shape=ellipse]
+	x17 -> x17_AND_y17
+	y17 -> x17_AND_y17
+	x17_AND_y17 -> nbj
+	y20_XOR_x20 [label=XOR shape=ellipse]
+	y20 -> y20_XOR_x20
+	x20 -> y20_XOR_x20
+	y20_XOR_x20 -> gcr
+	fgw_AND_bgb [label=AND shape=ellipse]
+	fgw -> fgw_AND_bgb
+	bgb -> fgw_AND_bgb
+	fgw_AND_bgb -> gww
+	y12_XOR_x12 [label=XOR shape=ellipse]
+	y12 -> y12_XOR_x12
+	x12 -> y12_XOR_x12
+	y12_XOR_x12 -> gmr
+	z43 [label=z43 color=red]
+	kdp_XOR_chc [label=XOR shape=ellipse]
+	kdp -> kdp_XOR_chc
+	chc -> kdp_XOR_chc
+	kdp_XOR_chc -> z43
+	y27_XOR_x27 [label=XOR shape=ellipse]
+	y27 -> y27_XOR_x27
+	x27 -> y27_XOR_x27
+	y27_XOR_x27 -> kqw
+	npc_OR_fcs [label=OR shape=ellipse]
+	npc -> npc_OR_fcs
+	fcs -> npc_OR_fcs
+	npc_OR_fcs -> nmh
+	grj_OR_mvg [label=OR shape=ellipse]
+	grj -> grj_OR_mvg
+	mvg -> grj_OR_mvg
+	grj_OR_mvg -> wkr
+	z17 [label=z17 color=red]
+	nmh_XOR_tmc [label=XOR shape=ellipse]
+	nmh -> nmh_XOR_tmc
+	tmc -> nmh_XOR_tmc
+	nmh_XOR_tmc -> z17
+	gfj_AND_gmr [label=AND shape=ellipse]
+	gfj -> gfj_AND_gmr
+	gmr -> gfj_AND_gmr
+	gfj_AND_gmr -> bpv
+	vvc_AND_hkm [label=AND shape=ellipse]
+	vvc -> vvc_AND_hkm
+	hkm -> vvc_AND_hkm
+	vvc_AND_hkm -> wgp
+	spf_OR_whw [label=OR shape=ellipse]
+	spf -> spf_OR_whw
+	whw -> spf_OR_whw
+	spf_OR_whw -> ctm
+	y34_XOR_x34 [label=XOR shape=ellipse]
+	y34 -> y34_XOR_x34
+	x34 -> y34_XOR_x34
+	y34_XOR_x34 -> fcn
+	dcs_OR_tkv [label=OR shape=ellipse]
+	dcs -> dcs_OR_tkv
+	tkv -> dcs_OR_tkv
+	dcs_OR_tkv -> bbb
+	z24 [label=z24 color=red]
+	kkb_XOR_rwd [label=XOR shape=ellipse]
+	kkb -> kkb_XOR_rwd
+	rwd -> kkb_XOR_rwd
+	kkb_XOR_rwd -> z24
+	z33 [label=z33 color=red]
+	twr_XOR_vck [label=XOR shape=ellipse]
+	twr -> twr_XOR_vck
+	vck -> twr_XOR_vck
+	twr_XOR_vck -> z33
+}
